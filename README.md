@@ -1,39 +1,75 @@
-# 🪄 CP's Starter Templates
+# CP's Nuxt 3 Starter
 
-Quickly get started with a starter template curated by [CP](https://github.com/cpreston321).
+Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-## Usage
+## Setup
 
-You can use [`giget`](https://github.com/unjs/giget#giget) CLI to clone latest template to an empty directory:
+Make sure to install the dependencies:
 
-```sh-session
-npx giget@latest --registry="https://raw.githubusercontent.com/cpreston/starter/main/templates" [template-name]
+```bash
+# npm
+npm install
+
+# pnpm
+pnpm install
+
+# yarn
+yarn install
+
+# bun
+bun install
 ```
 
-**Example:** Clone `nuxt` to `my-app` directory:
+## Development Server
 
-```sh-session
-npx giget@latest --registry="https://raw.githubusercontent.com/cpreston/starter/main/templates" nuxt my-app
+Start the development server on `http://localhost:3000`:
+
+```bash
+# npm
+npm run dev
+
+# pnpm
+pnpm run dev
+
+# yarn
+yarn dev
+
+# bun
+bun run dev
 ```
 
-## Templates
+## Production
 
-Name | Description | Local     | Online |
------|-------------|-----------|--------|
-[Nuxt 3 Starter](https://github.com/cpreston321/starter/tree/nuxt) | [Nuxt 3](https://github.com/nuxt/nuxt) | `npx giget@latest nuxt my-app` | [Stackblitz](https://stackblitz.com/github/cpreston321/starter/tree/nuxt) / [CodeSandbox](https://codesandbox.io/p/github/cpreston321/starter/nuxt) |
+Build the application for production:
 
-## Contribution
+```bash
+# npm
+npm run build
 
-Each template is maintained in a branch (see [all branches](https://github.com/cpreston321/starter/branches)).
-For improvements, please open a Pull Request to each individual branch.
+# pnpm
+pnpm run build
 
-**Note:** Please avoid commiting lock-files such as `yarn.lock`, `package-lock.json`, `bun.lockb` and `pnpm-lock.yaml` to template branches!
+# yarn
+yarn build
 
-## Credits & Inspiration
+# bun
+bun run build
+```
 
-- [nuxt/starter](https://github.com/nuxt/starter/tree/templates) - Repo structure & README
-- [unjs/giget](https://github.com/unjs/giget#giget) - CLI to clone templates
+Locally preview production build:
 
-## License
+```bash
+# npm
+npm run preview
 
-[MIT](./LICENSE)
+# pnpm
+pnpm run preview
+
+# yarn
+yarn preview
+
+# bun
+bun run preview
+```
+
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
