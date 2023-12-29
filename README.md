@@ -7,20 +7,20 @@ Quickly get started with a starter template curated by [CP](https://github.com/c
 You can use [`giget`](https://github.com/unjs/giget#giget) CLI to clone latest template to an empty directory:
 
 ```sh-session
-npx giget@latest --registry="https://raw.githubusercontent.com/cpreston/starter/main/templates" [template-name]
+npx giget@latest npx giget@latest gh:cpreston321/starter#[template] [app-dir]
 ```
 
 **Example:** Clone `nuxt` to `my-app` directory:
 
 ```sh-session
-npx giget@latest --registry="https://raw.githubusercontent.com/cpreston/starter/main/templates" nuxt my-app
+npx giget@latest npx giget@latest gh:cpreston321/starter#nuxt my-app
 ```
 
 ## Templates
 
 Name | Description | Local     | Online |
 -----|-------------|-----------|--------|
-[Nuxt 3 Starter](https://github.com/cpreston321/starter/tree/nuxt) | [Nuxt 3](https://github.com/nuxt/nuxt) | `npx giget@latest nuxt my-app` | [Stackblitz](https://stackblitz.com/github/cpreston321/starter/tree/nuxt) / [CodeSandbox](https://codesandbox.io/p/github/cpreston321/starter/nuxt) |
+[Nuxt 3 Starter](https://github.com/cpreston321/starter/tree/nuxt) | [Nuxt 3](https://github.com/nuxt/nuxt) | `npx giget@latest gh:cpreston321/starter#nuxt my-app` | [Stackblitz](https://stackblitz.com/github/cpreston321/starter/tree/nuxt) / [CodeSandbox](https://codesandbox.io/p/github/cpreston321/starter/nuxt) |
 
 ## Contribution
 
